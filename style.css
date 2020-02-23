@@ -1,0 +1,40 @@
+.container {
+    margin-top: 30px;
+ }
+
+ .api{
+    flex: 1 0 auto;
+ }
+
+ html, body{
+     height: 100%;
+ }
+
+body {
+    text-align: center;
+    background: rgb(0,241,228);
+    background: -moz-linear-gradient(90deg, rgba(0,241,228,1) 0%, rgba(9,112,121,1) 59%, rgba(0,89,107,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,241,228,1) 0%, rgba(9,112,121,1) 59%, rgba(0,89,107,1) 100%);
+    background: linear-gradient(90deg, rgba(0,241,228,1) 0%, rgba(9,112,121,1) 59%, rgba(0,89,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00f1e4",endColorstr="#00596b",GradientType=1);
+
+    display: flex;
+    flex-direction: column;
+  }
+
+footer {
+    text-align: center;
+    flex-shrink: 0;          /* Footer height */
+}
+}
+ @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+  @media screen and (max-width:320px) {
+    /* CSS for screens that are 320 pixels or less will be put in this section */
+    
+  }
+
+  
